@@ -43,6 +43,7 @@ Box configuration file
                   , "puppet-smartcity.mr"
                   , "puppet-template.mr"
                   , "puppet-tms.mr"
+		  , "puppet-tdq.mr"
                   , "puppet-urbisaddress.mr"
                   , "salt-base.mr"
                   , "salt-middleware.mr"
@@ -56,6 +57,9 @@ Box configuration file
                       }
                     , { path     = "$HOME/projects/pi3r/haskell/template"
                       , checkout = "git clone git@mygithub.com:PierreR/haskell-template.git template"
+                      }
+                    , { path     = "$HOME/projects/pi3r/devbox-config"
+                      , checkout = "git clone git@mygithub.com:PierreR/devbox-config.git devbox-config"
                       }
                     ]
 , envPackages = [ "cicd-shell"
