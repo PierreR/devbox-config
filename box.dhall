@@ -63,6 +63,7 @@ Box configuration file
                       }
                     ]
 , envPackages = [ "cicd-shell"
+                , "ansible"
                 , "albert"
                 , "vcsh"
                 , "bench"
