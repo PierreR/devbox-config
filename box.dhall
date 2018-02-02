@@ -30,6 +30,7 @@ Box configuration file
                   , "puppet-blockchain.mr"
                   , "puppet-bos.mr"
                   , "puppet-brucat.mr"
+                  , "puppet-editoria.mr"
                   , "puppet-fidus.mr"
                   , "puppet-fmx.mr"
                   , "puppet-genericservices.mr"
