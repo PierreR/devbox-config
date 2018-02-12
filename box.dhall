@@ -39,6 +39,7 @@ Box configuration file
                   , "puppet-iam.mr"
                   , "puppet-irisbox.mr"
                   , "puppet-jenkins.mr"
+                  , "puppet-klimcicc.mr"
                   , "puppet-middleware.mr"
                   , "puppet-nova.mr"
                   , "puppet-plone.mr"
