@@ -47,6 +47,7 @@ Box configuration file
     , "puppet-middleware.mr"
     , "puppet-nova.mr"
     , "puppet-plone.mr"
+    , "puppet-shared.mr"
     , "puppet-smartcity.mr"
     , "puppet-template.mr"
     , "puppet-tms.mr"
