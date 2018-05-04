@@ -30,6 +30,7 @@ Box configuration file
     , "docker-images.mr"
     , "postgrest.mr"
     , "puppet-atlassian.mr"
+    , "puppet-ci".mr
     , "puppet-cicd.mr"
     , "puppet-bas.mr"
     , "puppet-blockchain.mr"
@@ -43,7 +44,6 @@ Box configuration file
     , "puppet-hms.mr"
     , "puppet-iam.mr"
     , "puppet-irisbox.mr"
-    , "puppet-jenkins.mr"
     , "puppet-klimcicc.mr"
     , "puppet-middleware.mr"
     , "puppet-nova.mr"
