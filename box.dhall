@@ -17,7 +17,8 @@ Box configuration file
     "Pierre Radermecker"
 , userEmail =
     "pradermecker@cirb.brussels"
-, loginId = (./shell.dhall).loginId
+, loginId =
+    ./shell.dhall .loginId
 , repos =
     [ "nixpkgs-config.mr"
     , "cicd-ansible.mr"
@@ -30,7 +31,7 @@ Box configuration file
     , "docker-images.mr"
     , "postgrest.mr"
     , "puppet-atlassian.mr"
-    , "puppet-ci".mr
+    , "puppet-ci.mr"
     , "puppet-cicd.mr"
     , "puppet-bas.mr"
     , "puppet-blockchain.mr"
