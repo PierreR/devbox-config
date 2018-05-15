@@ -82,5 +82,5 @@ Box configuration file
       }
     ]
 , envPackages =
-    [ "cicd-shell", "ansible", "albert", "vcsh", "bench", "nodePackages.pulp" ]
+    [ "cicd-shell", "albert", "vcsh" ]
 }
