@@ -29,7 +29,6 @@ Box configuration file
     , "language-puppet.mr"
     , "pi3r-notebook.mr"
     , "docker-images.mr"
-    , "postgrest.mr"
     , "puppet-atlassian.mr"
     , "puppet-ci.mr"
     , "puppet-cicd.mr"
