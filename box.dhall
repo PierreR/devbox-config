@@ -47,7 +47,6 @@ Box configuration file
     , "puppet-klimcicc.mr"
     , "puppet-middleware.mr"
     , "puppet-nova.mr"
-    , "puppet-plone.mr"
     , "puppet-shared.mr"
     , "puppet-smartcity.mr"
     , "puppet-template.mr"
