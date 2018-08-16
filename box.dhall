@@ -18,7 +18,7 @@ Box configuration file
 , userEmail =
     "pradermecker@cirb.brussels"
 , loginId =
-    ./shell.dhall .loginId
+    (./shell.dhall).loginId
 , repos =
     [ "nixpkgs-config.mr"
     , "cicd-ansible.mr"
