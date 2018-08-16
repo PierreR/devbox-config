@@ -81,5 +81,5 @@ Box configuration file
       }
     ]
 , envPackages =
-    [ "cicd-shell", "vcsh" ]
+    [ "vcsh" ]
 }
