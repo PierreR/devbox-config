@@ -81,5 +81,5 @@ Box configuration file
       }
     ]
 , envPackages =
-    [ "vcsh", "stack", "ghc", "gcc" ]
+    [ "vcsh", "stack", "ghc", "gcc", "cachix" ]
 }
