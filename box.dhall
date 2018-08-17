@@ -40,17 +40,16 @@ Box configuration file
     -- , "puppet-fidus.mr"
     -- , "puppet-fmx.mr"
     -- , "puppet-genericservices.mr"
-	-- GIS
-    -- , "puppet-gis.mr"
-	, "puppet-novapermisenv.mr"
-	, "puppet-bruciel.mr"
-	, "puppet-geoservertools.mr"
-	, "puppet-mapfish.mr"
-	, "puppet-stack-urbisaas"
-	, "puppet-urbisonline.mr"
+    -- GIS
+    , "puppet-novapermisenv.mr"
+    , "puppet-bruciel.mr"
+    , "puppet-geoservertools.mr"
+    , "puppet-mapfish.mr"
+    , "puppet-urbisaas.mr"
+    , "puppet-urbisonline.mr"
     , "puppet-urbisaddress.mr"
-	, "puppet-urbistools.mr"
-	--
+    , "puppet-urbistools.mr"
+    --
     -- , "puppet-hms.mr"
     -- , "puppet-iam.mr"
     -- , "puppet-irisbox.mr"
