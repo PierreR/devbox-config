@@ -26,6 +26,7 @@ Box configuration file
     , "cicd-shell.mr"
     , "devbox.mr"
     , "devbox-xmonad.mr"
+	, "infra-elk.mr"
     , "language-puppet.mr"
     , "pi3r-notebook.mr"
     -- , "docker-images.mr"
