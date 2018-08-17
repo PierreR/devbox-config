@@ -3,7 +3,7 @@ Box configuration file
   userName        : Full user name e.g "John Doe" (used in git)
   userEmail       : Email address e.g "jdoe@cirb.brussels" (used in git)
   repos           : Git repos to activate; see https://github.com/CIRB/vcsh_mr_template/tree/master/.config/mr/available.d
-  eclipsePlugins  : Download eclipse plugins such as egit or m2e ?
+  eclipse         : Install Eclipse ?
   wallpaper       : Devbox wallpaper, see https://github.com/CIRB/devbox-dotfiles/.wallpaper
   console         : Console configuration such as light or dark background
   additionalRepos : List of additional personal mr repositories you might want to add
@@ -57,7 +57,7 @@ Box configuration file
     , "salt-middleware.mr"
     , "spacemacs.mr"
     ]
-, eclipsePlugins =
+, eclipse =
     False
 , wallpaper =
     "abstract-red.jpg"
@@ -81,5 +81,5 @@ Box configuration file
       }
     ]
 , envPackages =
-    [ "vcsh" ]
+    [ "vcsh", "stack", "ghc", "gcc" ]
 }
