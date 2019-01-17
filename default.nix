@@ -4,9 +4,9 @@ with import <nixpkgs> {};
 
 let
 
-# Instead of building from nixpkgs, use the provided static executable directory
+# Instead of building from nixpkgs, use the provided static executable.
 # By relying solely on the static executable, we don't care about the nix machinery that would build from source.
-# Changes are that the version we want is not yet in the binary cache.
+# (chances are that the version we want is not yet in the binary cache).
 # For instance, building with nix using `nix-env -iA haskellPackages.dhall_1_20_1 -f https://github.com/NixOS/nixpkgs/archive/088cb13aee074fb48d104222cb80fb552ec17529.tar.gz `
 # would currently 250M (unpacked) and then compile dhall ...
 dhall =
