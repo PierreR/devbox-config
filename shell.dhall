@@ -5,7 +5,7 @@ Configuration file for the cicd-shell
 -}
 
 { loginId =
-    "pradermecker"
+    env:LOGINID as Text
 , defaultStacks =
-    [ "cicd", "ci"]
+    [ "cicd", "ci", "elk"]
 }
