@@ -23,7 +23,21 @@ dhall =
       cp dhall $out/bin/
     '';
   };
+dhall-bash =
+  stdenv.mkDerivation rec {
+    name = "dhall-bash-${version}";
+    version = "1.20.1";
+    src = fetchurl {
+        url = "https://github.com/dhall-lang/dhall-haskell/releases/download/1.20.1/dhall-bash-${version}-x86_64-linux.tar.bz2";
+        sha256 = "0vm45pj4iffrdrmf71cfgpim4gdx29r4ddawkhspirjg4hy28m2j";
+    };
+
+    installPhase = ''
+      mkdir -p $out/bin
+      cp dhall-to-bash $out/bin/
+    '';
+  };
 in
 {
-inherit dhall;
+inherit dhall dhall-bash;
 }
